@@ -1,12 +1,5 @@
 
-# azurerm_resource_group.example will be created
-resource "azurerm_resource_group" "MC_KubernetesPreview" {
 
-      location = "canadacentral"
-      name     = "MC_KubernetesPreview"
-    }
-resource "azurerm_kubernetes_cluster" "managedClusters_gore_k8s_preview_name" {
-      dns_prefix              = "managedClustersgorek8spreviewname"
 
       kubernetes_version      = "${var.kubernetes_version}"
       location                = azurerm_resource_group.MC_KubernetesPreview.location
