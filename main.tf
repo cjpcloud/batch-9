@@ -1,35 +1,5 @@
 
 
-
-<<<<<<< HEAD
-      kubernetes_version      = "${var.kubernetes_version}"
-      lasrgdfghdocation                = azurerm_resource_group.MC_KubernetesPreview.location
-      name                    = "managedClusters_gore_k8s_preview_name"
-      resource_group_name     = azurerm_resource_group.MC_KubernetesPreview.name
-
-
-
-      addon_profile {
-
-
-
-
-          http_application_routing {
-              enabled                            = "false"
-
-            }
-
-          kube_dashboard {
-              enabled = "true"
-            }
-
-   #       oms_agent {
-   #          enabled                    = "true"
-   #          log_analytics_workspace_id = "workspaces_kubernetespreview_cca_externalid"
-   #          oms_agent_identity =  {
-   #                         loganalyticsworkspaceresourceid = "[list('workspaces_kubernetespreview_cca_externalid')]"
-   #                     }
-   #
    #         }
         }
 
