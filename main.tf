@@ -2,7 +2,7 @@
 
 
       kubernetes_version      = "${var.kubernetes_version}"
-      location                = azurerm_resource_group.MC_KubernetesPreview.location
+      lasrgdfghdocation                = azurerm_resource_group.MC_KubernetesPreview.location
       name                    = "managedClusters_gore_k8s_preview_name"
       resource_group_name     = azurerm_resource_group.MC_KubernetesPreview.name
 
