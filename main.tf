@@ -1,6 +1,7 @@
 
 
 
+<<<<<<< HEAD
       kubernetes_version      = "${var.kubernetes_version}"
       lasrgdfghdocation                = azurerm_resource_group.MC_KubernetesPreview.location
       name                    = "managedClusters_gore_k8s_preview_name"
@@ -55,6 +56,9 @@
           service_cidr       = "${var.service_cidr}"
 
 
+=======
+      
+>>>>>>> 3084d058f55d7882bd0500dcd970ca33b0dbbc6a
         }
 
 
