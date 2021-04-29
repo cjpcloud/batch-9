@@ -1,36 +1,5 @@
 
 
-   #         }
-        }
-
-
-
-      default_node_pool {
-          max_pods             = "30"
-          name                 = "agentpool"
-          node_count           = 12
-          orchestrator_version = "${var.orchestrator_version}"
-          os_disk_size_gb      = "30"
-          type                 = "${var.type}"
-          vm_size              = "30"
-        }
-
-      network_profile {
-          dns_service_ip     = "${var.dns_service_ip}"
-          docker_bridge_cidr = "${var.docker_bridge_cidr}"
-          load_balancer_sku  = "Basic"
-          network_plugin     = "${var.network_plugin}"
-
-          outbound_type      = "${var.outbound_type}"
-
-          service_cidr       = "${var.service_cidr}"
-
-
-=======
-      
->>>>>>> 3084d058f55d7882bd0500dcd970ca33b0dbbc6a
-        }
-
 
 
       service_principal {
